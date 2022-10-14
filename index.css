@@ -18,8 +18,8 @@ button {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  width: 450px;
-  height: 450px;
+  width: 500px;
+  height: 500px;
   transition: 0.3s all ease-in-out;
   transform-origin: center;
 }
@@ -78,9 +78,14 @@ button {
 
 .chooseSymbol,
 .endgame {
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   align-items: center;
   display: flex;
+}
+
+.endgame,
+.chooseSymbol button {
+  font-size: 1.45rem;
 }
 
 .chooseSymbol {
